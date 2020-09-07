@@ -1,0 +1,23 @@
+.card {
+  padding: 20px 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.card__main {
+  display: flex;
+}
+
+.card__section {
+  flex: 1;
+  align-items: center;
+}
+
+.section__value {
+  text-align: center;
+}
+
+.arrow {
+  width: 15px;
+  cursor: pointer;
+}

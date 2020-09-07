@@ -1,0 +1,63 @@
+.modal__container {
+  position: absolute;
+  z-index: 10;
+  width: 350px;
+  top: 50px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 1px 9px -2px rgba(99, 99, 99, 0.406);
+  -moz-box-shadow: 0px 1px 9px -2px rgba(99, 99, 99, 0.406);
+  box-shadow: 0px 5px 9px -3px rgba(99, 99, 99, 0.406);
+}
+
+.modal__img {
+  width: 50px;
+  height: 50px;
+}
+
+.modal__header {
+  padding: 30px 50px;
+  background: rgb(242, 242, 242);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-box-shadow: 0px 5px 9px -5px rgba(99, 99, 99, 0.406);
+  -moz-box-shadow: 0px 5px 9px -5px rgba(99, 99, 99, 0.406);
+  box-shadow: 0px 5px 9px -5px rgba(99, 99, 99, 0.406);
+}
+
+.modal__header__title {
+  padding: 10px 0 0 0;
+  font-size: 22px;
+  color: #000;
+}
+
+.modal__footer {
+  background: #fcfcfcdd;
+  padding: 30px 40px;
+}
+
+.modal__footer__section {
+  margin-bottom: 20px;
+}
+
+.modal__footer__label {
+  color: #919191;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.modal__footer__value {
+  padding: 10px 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.logout__button {
+  transition: 0.1s;
+  padding: 0;
+}

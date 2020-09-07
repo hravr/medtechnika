@@ -1,0 +1,48 @@
+.body {
+  padding: 200px;
+  background: linear-gradient(#c9d6ff, #e2e2e2);
+}
+
+.errorTitle {
+  font-size: 100px;
+  text-align: center;
+  font-weight: bolder;
+  color: #2bbd86;
+}
+
+.goBack {
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  padding: 20px 35px;
+}
+.goBack__icon {
+  width: 1rem;
+  fill: white;
+  vertical-align: -0.125em;
+}
+
+.button {
+  padding-top: 100px;
+  text-align: center;
+  transition: 0.1s;
+}
+
+.button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media (max-width: 575px) {
+  .body {
+    padding: 200px 15px;
+  }
+  .errorTitle {
+    font-size: 30px;
+    padding: 35px;
+  }
+  .button {
+    padding-top: 0;
+  }
+}

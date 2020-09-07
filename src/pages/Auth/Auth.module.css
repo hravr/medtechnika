@@ -1,0 +1,140 @@
+.body div {
+  font-family: Neucha-Regular;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.bread__crumbs {
+  width: 1rem;
+  fill: #acacac;
+  vertical-align: -0.1em;
+}
+.body h4 {
+  font-size: 30px;
+}
+.body h5 {
+  font-size: 35px;
+  /* padding-top: 45px; */
+}
+.body h6 {
+  color: gray;
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.title__container {
+  padding: 35px 0;
+  background: rgba(240, 240, 240, 0.632);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-weight: 300;
+  padding: 0 0 10px 0;
+}
+
+.login {
+  padding: 50px 0;
+}
+
+.input__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.input__container > div {
+  flex-grow: 1;
+  width: 300px;
+}
+
+.password {
+  margin-top: 10px;
+}
+
+.fbt {
+  outline: none;
+  background: none;
+  border: none;
+  background: none;
+
+  display: flex;
+  flex-direction: column;
+}
+.logwith {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.logicon {
+  width: 2rem;
+  cursor: pointer;
+}
+.gl {
+  margin-right: 10px;
+}
+.fb {
+  margin-right: 10px;
+}
+.fakey {
+  padding-right: 5px;
+}
+
+.error__icon {
+  fill: #e80000;
+}
+.success__icon {
+  fill: #00d231;
+}
+.restore {
+  margin-top: 10px;
+  padding: 0 auto;
+}
+.restore,
+.reg,
+.goback {
+  padding: 10px;
+  color: gray;
+}
+.goBack {
+  margin-right: 2px;
+}
+.reg,
+button {
+  border: none;
+  background-color: transparent;
+}
+.submit_button {
+  padding: 0 0 20px 0;
+  justify-content: center;
+}
+.submit_button > button {
+  flex-grow: 1;
+  width: 300px;
+}
+.icon {
+  position: absolute;
+  right: 15px;
+  width: 1.5rem;
+}
+
+.remember__container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.remember__desc {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #838383;
+  cursor: pointer;
+}

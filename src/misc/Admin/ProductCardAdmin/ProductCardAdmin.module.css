@@ -1,0 +1,13 @@
+.card {
+  display: flex;
+  padding: 15px 0;
+  border: 1px solid #eeeeee;
+}
+
+.card__atrbutes {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}

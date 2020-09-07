@@ -1,0 +1,23 @@
+.order__header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  background: #2bbd86;
+  margin-top: 20px;
+}
+
+.order__header span {
+  flex: 1;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+}
+
+.products__container {
+  margin-top: 20px;
+}
+@media (max-width: 575px) {
+  .order__header {
+    display: none;
+  }
+}

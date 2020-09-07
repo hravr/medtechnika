@@ -1,0 +1,54 @@
+.cart__icon__entering {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.cart__icon__entered {
+  opacity: 0.4;
+  transform: rotate(45deg);
+}
+
+.cart__icon__exiting {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.cart__icon__exited {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.card__button {
+  transition: 0.2s;
+  background: #ccc;
+  padding: 0;
+  width: 45px;
+  height: 45px;
+  position: relative;
+}
+
+.full__size__button {
+  width: initial;
+  height: initial;
+}
+
+.card__cart__icon {
+  font-size: 23px;
+  transition: 0.2s;
+}
+
+.card__price__container .card__button:hover {
+  background: #b3b3b3;
+}
+
+.card__button.active__card__button {
+  background: #00e92f;
+}
+
+/*alert*/
+.attribute__alert {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: #000;
+}

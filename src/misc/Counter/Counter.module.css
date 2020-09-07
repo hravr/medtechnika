@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+}
+
+.input {
+  outline: none;
+  border: none;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  background: #f0f0f0;
+  padding: 10px;
+  color: #333;
+  font-weight: 300;
+}
+
+.sign__icon__container {
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background: #ebebeb;
+  align-items: center;
+}
+
+.icon {
+  fill: #808080;
+  cursor: pointer;
+  width: 0.8rem;
+  font-weight: lighter;
+}

@@ -1,0 +1,25 @@
+.second {
+  background: red;
+  height: 30vh;
+}
+
+.slide-enter,
+.slide-exit {
+  transition: opacity 200ms ease-out;
+}
+
+.slide-enter {
+  opacity: 0.1;
+}
+
+.slide-enter.slide-enter-active {
+  opacity: 1;
+}
+
+.slide-exit {
+  opacity: 0.1;
+}
+
+.slide-exit-active {
+  opacity: 1;
+}

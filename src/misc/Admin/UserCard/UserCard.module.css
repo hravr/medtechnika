@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  padding: 15px 0;
+  border: 1px solid #eeeeee;
+}
+
+.card__atrbutes {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+.buttons {
+  margin-left: 10px;
+  display: flex;
+}
+.delete__btn {
+  background-color: #b82c43;
+  margin-left: 5px;
+}
+/* .delete__btn :hover {
+    color: red;
+  } */
+.delete__container :hover {
+  background-color: red;
+  transition: 0.5s;
+}
+.delivery {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+/* .fname .lname .mail .phone__number .delivery {
+  width: 15%;
+} */
+/* .fname {
+  margin-left: 20px;
+  max-width: 20px;
+}
+.lname {
+  margin-left: 60px;
+} */
+@media (max-width: 575px) {
+  .phone__number,
+  .delivery,
+  .mail {
+    display: none;
+  }
+}

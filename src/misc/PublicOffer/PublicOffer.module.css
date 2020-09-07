@@ -1,0 +1,21 @@
+.public__offer {
+  padding: 50px 25px;
+  margin: auto;
+  width: 75%;
+}
+h4,
+h3,
+h2,
+h1 {
+  padding: 15px 0;
+}
+.title__container {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px 0;
+}
+.bread__crumbs {
+  width: 1rem;
+  fill: #acacac;
+  vertical-align: -0.1em;
+}

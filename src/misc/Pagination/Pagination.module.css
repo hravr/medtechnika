@@ -1,0 +1,37 @@
+.pagination__container {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px 20px;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.pagination__container li {
+  cursor: pointer;
+}
+
+.pagination__container a:focus {
+  outline: none;
+}
+
+.pagination__active__link {
+  border: 1px solid #2bbd86;
+  border-radius: 5px;
+}
+
+.pagination__link {
+  height: 30px;
+
+  width: 30px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  justify-content: center;
+}
+
+.pagination__link a:focus,
+.pagination__active__link:focus {
+  outline: none;
+}

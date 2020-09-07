@@ -1,0 +1,9 @@
+.combination {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.combination__item {
+  display: flex;
+}

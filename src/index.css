@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+p,
+span,
+input,
+a,
+div,
+textarea {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.BrainhubCarousel__arrows {
+  background-color: #2bbd86 !important;
+}
+
+.BrainhubCarousel__arrows:hover:enabled,
+.BrainhubCarousel__arrows:hover {
+  background-color: #2bbd86 !important;
+}
+
+.fallback {
+  height: 90vh;
+}
+
+.giIIyF:hover::after {
+  content: "" !important;
+  background: none !important;
+}

@@ -1,0 +1,126 @@
+.body div {
+  font-family: Neucha-Regular;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.title {
+  font-size: 30px;
+}
+.title__container {
+  background-color: #f4f4f4;
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+.register {
+  padding: 50px 0;
+}
+.input__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.input__container > div {
+  flex-grow: 1;
+  width: 300px;
+}
+.pswd {
+  display: flex;
+  flex-direction: column;
+}
+.login {
+  padding: 10px 0;
+}
+.ph__number {
+  padding: 10px 0;
+}
+.email {
+  padding: 10px 0;
+}
+.pswd {
+  padding: 10px 0;
+}
+
+.fbt {
+  outline: none;
+  background: none;
+  border: none;
+  background: none;
+}
+.logwith {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.logicon {
+  width: 2rem;
+  cursor: pointer;
+}
+.gl {
+  margin-right: 10px;
+}
+.fb {
+  margin-right: 10px;
+}
+.fakey {
+  margin-left: 5px;
+}
+.icon {
+  position: absolute;
+  right: 15px;
+  width: 1.5rem;
+}
+
+.error__icon {
+  fill: #e80000;
+}
+.success__icon {
+  fill: #00d231;
+}
+
+.reg,
+button {
+  border: none;
+  background-color: transparent;
+}
+.submit_button {
+  padding: 20px 0;
+  justify-content: center;
+}
+.submit_button > button {
+  flex-grow: 1;
+  width: 300px;
+}
+.check_box {
+  color: gray;
+  padding: 10px;
+  font-size: smaller;
+}
+.faCheck {
+  margin-right: 2px;
+  margin-bottom: 2px;
+  zoom: 0.5px;
+}
+.goback {
+  color: gray;
+}
+.go__login {
+  color: gray;
+  padding-bottom: 10px;
+}
+.faArrowLeft {
+  fill: #acacac;
+  height: 1em;
+  vertical-align: -0.125em;
+  margin-right: 2px;
+}
+.bread__crumbs {
+  width: 1rem;
+  fill: #acacac;
+  vertical-align: -0.1em;
+}

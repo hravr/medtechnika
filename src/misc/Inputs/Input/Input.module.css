@@ -1,0 +1,41 @@
+.input {
+  display: flex;
+  justify-content: center;
+  outline: none;
+  border: 1px solid #7e858037;
+  padding: 10px 15px;
+  flex-grow: 1;
+}
+
+.input::placeholder {
+  color: #ccc;
+}
+
+.label {
+  margin-bottom: 10px;
+  color: gray;
+  margin-bottom: 6px;
+  color: #7b7b7b;
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container span {
+  align-self: start;
+  font-family: "Roboto", sans-serif;
+}
+
+.container__input {
+  display: flex;
+  position: relative;
+  flex: 1;
+  align-items: center;
+}
+
+.error__input {
+  border: 1px solid red;
+}
