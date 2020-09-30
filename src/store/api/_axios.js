@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const _axios = axios.create({
-  baseURL: "https://medtechnika.te.ua/api/v1",
+  baseURL: "************************",
 });
 
 _axios.interceptors.response.use(undefined, (e) => e.response);
